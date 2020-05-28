@@ -1,0 +1,13 @@
+.place__url-heading{
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 1.0;
+letter-spacing: 0.2em;
+margin-top: 12px;
+color: #AAA;
+}
+
+.place__url-heading:first-child{
+	margin-top: 0px;
+}

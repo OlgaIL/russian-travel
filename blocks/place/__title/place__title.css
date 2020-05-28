@@ -1,0 +1,37 @@
+.place__title{
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 1.06;
+
+margin-bottom: 0;
+padding: 0;
+align-self:end;
+margin-top:32px;
+text-rendering: optimizeLegibility;
+}
+
+.place__title:first-of-type{
+	margin-top: 0px;
+}
+
+@media all and (max-width: 680px) {
+	.place__title{
+	padding-left: 16px;
+	padding-right: 16px;
+	font-size: 32px;
+	line-height: 1.09;
+	margin-top: 16px;
+
+	}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 680px) {
+	.place__title{
+		font-size: 42px;
+		line-height: 1.1;
+		margin-top:24px;
+	}
+}
+
+
