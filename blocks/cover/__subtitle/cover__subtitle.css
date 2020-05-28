@@ -1,0 +1,19 @@
+.cover__subtitle{
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 1.22;
+text-align: center;
+margin:0px;
+color: #fff;
+text-decoration: none;
+}
+
+
+@media all and (max-width: 500px) {
+	/* стили для мониторов с максимальной шириной 500 пикселей */
+	.cover__subtitle{
+		font-size: 14px;
+		line-height: 1.14;
+	}	
+}
