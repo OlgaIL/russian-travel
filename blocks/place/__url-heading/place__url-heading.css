@@ -4,10 +4,11 @@ font-weight: normal;
 font-size: 12px;
 line-height: 1.0;
 letter-spacing: 0.2em;
-margin-top: 12px;
+margin-bottom: 12px;
 color: #AAA;
+text-transform: uppercase;
 }
 
-.place__url-heading:first-child{
-	margin-top: 0px;
+.place__url-heading:last-child{
+	margin-bottom: 0px;
 }

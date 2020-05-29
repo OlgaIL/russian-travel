@@ -10,7 +10,7 @@
 	position: relative;
 }
 
-@media screen and (max-width :1280px) and (min-width:768px) {
+@media screen and (max-width :1250px) and (min-width:768px) {
 	/*768 << X << 1280 */
 	.cover{
 		padding-left: 0px;

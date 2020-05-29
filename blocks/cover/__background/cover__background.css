@@ -12,7 +12,6 @@
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
-
 }
 
 
@@ -40,14 +39,14 @@
 	}	
 }
 
-@media (min-width: 500px) and (max-width: 768px) {
+@media (min-width: 500px) and (max-width: 769px) {
 	/* 500<< x <<768 */
 	.cover__background{
 		min-height: 480px;
 	}
 }
 
-@media (min-width: 770x) and (max-width: 1024px) {
+@media (min-width: 770px) and (max-width: 1024px) {
 	/* 770<< x <<1024 */
 	.cover__background{
 		min-height: 640px;
